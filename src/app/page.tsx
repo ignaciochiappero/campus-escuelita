@@ -5,7 +5,7 @@ export default function Home() {
       <div className="p-2 bg-rose-600 rounded-4xl"> NUEVO MENSAJITO</div>
       <div className="p-2 bg-rose-600 rounded-4xl">
         {" "}
-        NUEVO MENSAJITO PARA EL CUARTO COMMIT
+        NUEVO MENSAJITO PARA EL QUINTO COMMIT
       </div>
     </div>
   );
