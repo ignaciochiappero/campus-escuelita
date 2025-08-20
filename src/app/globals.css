@@ -1,3 +1,8 @@
+/* Línea debajo del círculo usando before-under */
+.before-under::before {
+  position: absolute !important;
+  z-index: 0 !important;
+}
 @import "tailwindcss";
 
 :root {
@@ -23,4 +28,31 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton-rojo{
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton-azul{
+  background-color: #1100ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton-amarillo{
+  background-color: #d2c700;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
